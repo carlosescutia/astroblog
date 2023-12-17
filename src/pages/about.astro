@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 const pageTitle = "Acerca de mí"
@@ -43,7 +43,7 @@ const textCase = "uppercase";
         </style>
 	</head>
 	<body>
-        <Navigation />
+        <Header />
         <h1>{pageTitle}</h1>
 		<p>Estoy siguiendo el tutorial introductorio del framework Astro. Esta es la segunda página</p>
 		<p>Este sitio se actualizará según vaya completando más etapas del tutorial.</p>
@@ -66,6 +66,9 @@ const textCase = "uppercase";
 
         {goal === 3 ? <p>Mi meta es terminar en 3 días</p> : <p>Mi meta no son 3 días</p>}
         <Footer />
+        <script>
+            import "../scripts/menu.js";
+        </script>
 	</body>
 </html>
 
