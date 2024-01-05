@@ -1,17 +1,14 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Mi primer post'
 pubDate: 2023-12-16
 description: 'Este es mi primer post en mi blog Astro.'
 author: 'Carlos Escutia'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://docs.astro.build/assets/full-logo-dark.png'
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "aprendiendo en público"]
 ---
-# Mi primer post
-
-Publicado el: 2023-12-16
-
 Bienvenido a mi _nuevo blog_ de aprendizaje de Astro. Aquí, compartiré mi aprendizaje mientras construyo un nuevo sitio.
 
 
